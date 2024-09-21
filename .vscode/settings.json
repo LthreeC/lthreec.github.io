@@ -4,7 +4,7 @@
   "editor.formatOnSave": true,
   // Shopify Liquid
   "files.associations": {
-    "*.html": "liquid"
+    "*.html": "html"
   },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
@@ -21,10 +21,22 @@
   "scss.validate": false,
   "less.validate": false,
   // Stylint extension settings
-  "stylelint.snippet": ["css", "scss"],
-  "stylelint.validate": ["css", "scss"],
+  "stylelint.snippet": [
+    "css",
+    "scss"
+  ],
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
-    "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
+    "zsh": {
+      "path": "/bin/zsh",
+      "args": [
+        "-l",
+        "-i"
+      ]
+    }
   }
 }
